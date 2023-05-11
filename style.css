@@ -1,3 +1,6 @@
+/* The css and the base pages are all from Yoga Studio but is modified in my own way to show my website. */
+
+
 /* form styling section */
 form{
     display: flex;
@@ -64,8 +67,9 @@ body{
 }
 
 header{
-    background-image: url("images/sunrise.jpg");
-    background-size: 100% 100%;     /* stretch the image to 100% of the parent screen */
+    background-image: url("images/penguin2.jpg");
+    /* https://stock.adobe.com/search?k=penguin+background */
+    background-size: 80% 80%;     /* stretch the image to 100% of the parent screen */
     color:#FFF;
     font-size:120%;
     margin-top: 50px;
@@ -82,10 +86,15 @@ h1{
     line-height:200%;
     /* padding-top: 50px; */
     padding-right: 2em;
+    text-align: center;
+    font-size:400%;
 }
-
+mark {
+    background-color: rgba(54, 65, 88, 0.26);
+    color:rgb(255, 255, 255) ;
+  }
 h2{
-    font-size:200%
+    font-size:200%;
 }
 
 nav{
@@ -121,7 +130,7 @@ nav li{
     display:inline;
 }
 footer{
-    background-color: #80cbc4;
+    background-color: #f1e571;
     font-size: .60em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -151,34 +160,69 @@ img{
     padding-top: 5em;
 }
 .content{
-    height:30vh;
+    height:40vh;
     padding-left: 8em;
     padding-top: 5em;
 }
-#mathero{
-    background-image: url("images/yogamat.jpg");
+
+#samurai{
+    background-image: url("images/samurai.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    height:600px;
+    width:500px;
+    padding-bottom:1em;
+    margin-left: 0;
+    margin-right: auto;
+}
+#senior{
+    background-image: url("images/senior.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+    height:600px;
+    width:500px;
+    padding-bottom:1em;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#logo{
+    background-image: url("images/Logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     display:block;
     height:300px;
+    width:400px;
     padding-bottom:1em;
+    margin-left: auto;
+    margin-right: auto;
 }
-#loungehero{
-    background-image: url("images/yogalounge.jpg");
+#usi{
+    background-image: url("images/usi.png");
     background-repeat: no-repeat;
     background-size: cover;
     display:block;
-    height:300px;
-    padding-bottom:1em;
+    height:400px;
+    width:400px;
+    padding-bottom:5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:10px;
 }
-#storehero{
-    background-image: url("images/store.jpg");
+#python{
+    background-image: url("images/python.png");
     background-repeat: no-repeat;
     background-size: cover;
     display:block;
-    height:300px;
-    padding-bottom:1em;
+    height:400px;
+    width:800px;
+    padding-bottom:5em;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 section{
     padding-left: 2em;
     padding-right: 2em;
@@ -194,38 +238,6 @@ section{
 #desktop{
     display:inline;
 }
-
-
-/* 
-.onehalf{
-    float:left;
-    width:50%;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-.onethird{
-    float:left;
-    width:33%;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-#clear{
-    clear:both;
-} */
-
-/* main{
-    padding-top: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
-    display:block;
-    margin-left: 170px;
-} */
-
-/* .floatleft{
-    float:left;
-    margin-right: 4em;
-    margin-bottom: 1em;
-} */
 }
 
 /* Half Screen can or tablet mode could work with max=width: 1024... */
@@ -246,19 +258,20 @@ section{
     }
     body{
         margin:0;
-        background-color: #3f2860;
-        color: #40407a;         /*Text color*/
+        background-color: #2f567a;
+        color: #40407a;        /*Text color*/
         font-family: Verdana, Arial, sans-serif;
     }
     
     header{
-        background-image: url("images/sunrise.jpg");
+        background-image: url("images/penguin2.jpg");
         background-size: 100% 100%;     /* stretch the image to 100% of the parent screen */
         color:#FFF;
         font-size:90%;
         margin-top: 50px;
         text-align: right;
         height: 200px;
+
     }
     
     /* applying style to  the nav section */
@@ -310,46 +323,23 @@ section{
     
     .studio{
         color: #40407a;
-        font-style: italic;
+        font-style: normal;
     }
     
     #wrapper{
+        margin-top: 50px;
         padding: 2em;
         background-color: #f5f5f5;
     }
     .home{
-        height:20vh;
+        height:40vh;
         padding-left: 10%;
         padding-top: 2em;
     }
     .content{
-        height:20vh;
+        height:40vh;
         padding-left: 10%;
         padding-top: 2em;
-    }
-    #mathero{
-        background-image: url("images/yogamat.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        display:block;
-        height:300px;
-        padding-bottom:1em;
-    }
-    #loungehero{
-        background-image: url("images/yogalounge.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        display:block;
-        height:300px;
-        padding-bottom:1em;
-    }
-    #storehero{
-        background-image: url("images/store.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        display:block;
-        height:300px;
-        padding-bottom:1em;
     }
     section{
         padding-left: 2em;
@@ -372,21 +362,24 @@ section{
 
 /* mobile screen */
 @media(max-width:600px){
-
+    mark {
+        background-color: rgba(54, 65, 88, 0.26);
+        color:rgb(255, 255, 255) ;
+      }
     body{
         margin:0;
-        background-color: #3f2860;
+        background-color: #2f567a;
         color: #40407a;         /*Text color*/
         font-family: Verdana, Arial, sans-serif;
     }
     
     header{
-        background-image: url("images/sunrise.jpg");
+        background-image: url("images/penguin2.jpg");
         background-size: 100% 100%;     /* stretch the image to 100% of the parent screen */
         color:#FFF;
         font-size:90%;
         margin-top: 50px;
-        text-align: right;
+        text-align: left;
         height: 200px;
     }
     
@@ -441,11 +434,12 @@ section{
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
         font-style: italic;
+        background-color: #f1e571;
     }
     
     .studio{
         color: #40407a;
-        font-style: italic;
+        font-style: normal;
     }
 
     #wrapper{
